@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SourceFile>D:/Programming/Stella Nova/Stella Nova/Content/Fonts/Roboto-LightItalic.spritefont</SourceFile>
+  <SourceTime>2022-05-13T15:35:49.635496+08:00</SourceTime>
+  <DestFile>D:/Programming/Stella Nova/Stella Nova/Content/bin/Windows/Fonts/Roboto-LightItalic.xnb</DestFile>
+  <DestTime>2022-05-14T13:54:40.6608538+08:00</DestTime>
+  <Importer>FontDescriptionImporter</Importer>
+  <ImporterTime>2020-05-27T23:15:40+08:00</ImporterTime>
+  <Processor>FontDescriptionProcessor</Processor>
+  <ProcessorTime>2020-05-27T23:15:40+08:00</ProcessorTime>
+  <Parameters>
+    <Key>PremultiplyAlpha</Key>
+    <Value>True</Value>
+  </Parameters>
+  <Parameters>
+    <Key>TextureFormat</Key>
+    <Value>Compressed</Value>
+  </Parameters>
+  <Dependencies />
+  <BuildAsset />
+  <BuildOutput />
+</PipelineBuildEvent>
