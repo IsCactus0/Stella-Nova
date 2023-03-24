@@ -1,0 +1,86 @@
+﻿SPACE PIRATES
+SMUGGLERS
+
+TOP DOWN INTERIOR SETS
+	HACK AND SLASH STYLE
+	DESTROYING EXTERIOR - CREATE VACUUM TO SUCK OBJECTS INTO SPACE
+	USE SAME PHYSICS ENGINE
+
+WEAPONS
+	Self-Forging Warhead
+	# Secondary Projectile
+		Creates a small explosion once projectile reaches 0 penetration.
+		Fires a second molten copper projectile from this explosion.
+		Increases the cost of all ammunition (e.g. Crafting ammunition now requires Tantalum).
+
+		# Once projectile calls its OnDestroy() function,
+		# Spawn a new copper warhead projectile at original projectiles position moving in same direction.
+
+		Pyrophoric Metal
+			Causes Incendiary Effects post detonation in area of explosion.
+			Increases the cost of all ammunition further (e.g. Crafting ammunition now requires Magnesium).
+
+			# Add effect to all
+
+	Shockwave cannon
+	# Shockwave
+		Creates a small shockwave pushing all nearby objects away.
+		
+
+		# Shockwave now causes damage
+			Increases the size of the shockwave, and damages objects
+			in vicinity.
+		# Shockwave now also disorients
+			Disorients all nearby entities
+
+ABILITIES
+	
+	# Increased Pickup Range
+		Allows the player to attract nearby pickups from further away.
+
+		# Increase players pickup range variable.
+
+	Nano-Disassemblers
+	# AOE Damage
+		Causes all foreign objects (e.g. asteroids and enemies) to take passive "burn" damage when in a given vicinity.
+		Possibly giving the player a small amount of resources for all objects completely destroyed by the nano-bots.
+
+		# Find all objects in within set range
+		# Loop over all found objects spawning particles randomly along their polygon.
+		# When spawing the particle damage object by small amount (e.g. 1 - 7).
+		# Particles move towards player with inverse square falloff.
+		# Once particles reach player give player some components of the given objects drops.
+
+	Optical-Displacement Drive
+	# Invisibility
+		Allows the player to become partially invisible shrinking the effective sight range of all enemies while shield is active.
+		Can be upgraded to increase longevity and effectiveness.
+
+		# Alter player visibility variable when ability is active.
+		# Multiply Sight range of all enemies by player visibility variable.
+		# Use shader to draw shield effects.
+
+
+MENUS
+
+SHOPS
+
+WEAPONS
+	NUKE (Destroy massive area)
+	DARK MATTER CANNON (Spawn projectiles randomly around player from "portals")
+	TRACKING BULLETS (Bullets track targets)
+	SPECTRAL BULLETS (Travel through first target without damaging)
+
+ENEMIES
+	GIANT WORM
+	SMALL WORMS
+	SPLITTING-TRIANGLES
+
+RESOURCES
+	RARE ITEMS
+	BOSS LOOT
+
+CRAFTING
+	EMP (Stuns all enemies in range.)
+	ABILITIES
+	SPECIAL AMMO
